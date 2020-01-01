@@ -1,256 +1,592 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<!-- Required meta tags --> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Retrofinity The Best IPhone site</title>
+		<link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+		<link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.css">
+		<link rel="stylesheet" href="vendors/owl.carousel/css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="vendors/aos/css/aos.css">
+		<link rel="stylesheet" href="vendors/jquery-flipster/css/jquery.flipster.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="images/favicon.png" />
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div id="mobile-menu-overlay"></div>
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="images/logo.png" alt="Marshmallow"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"><i class="mdi mdi-menu"> </i></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+					<div class="d-lg-none d-flex justify-content-between px-4 py-3 align-items-center">
+						<img src="images/logo-dark.svg" class="logo-mobile-menu" alt="logo">
+						<a href="javascript:;" class="close-menu"><i class="mdi mdi-close"></i></a>
+					</div>
+					<ul class="navbar-nav ml-auto align-items-center">
+						<li class="nav-item active">
+							<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#testimonial">Testimonial</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#plans">Plans</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="page-body-wrapper">
+			<section id="home" class="home">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="main-banner">
+								<div class="d-sm-flex justify-content-between">
+									<div data-aos="zoom-in-up">
+										<div class="banner-title">
+												<h3 class="font-weight-medium">iPhone 11 Pro <br>
+													Pro cameras Pro display Pro performance.
+											</h3>
+										</div>
+										<p class="mt-3">From $24.95/mo. or $599 with trade-in.*
 
-<head>
+											<br>
+											iPhone 11
+Just the right amount of everything.
+										</p>
+										<a href="#" class="btn btn-secondary mt-3">Learn more</a>
+									</div>
+									<div class="mt-5 mt-lg-0">
+										<img src="images/group.png" alt="marsmello" class="img-fluid" data-aos="zoom-in-up">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Retrofinity - Start Work with Retro</title>
-
-  <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Services</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">Retrofinity</h1>
-      <h3 class="mb-5">
-        <em>A Place Of Experienced Web Developers and Graphic Designers</em>
-      </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Sign in</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
-
-  <!-- About -->
-  <section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2 style="color: aliceblue;">if you Want to be a part of retro just Click the sign up Button!</h2>
-          <p class="lead mb-5">
-            </p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Sign UP</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Services</h3>
-        <h2 class="mb-5">What We Offer</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-          <h4>
-            <strong>Web-Development</strong>
-          </h4>
-          <p class="text-faded mb-0">Top Rated Web-developers for your work!</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-          <h4>
-            <strong>Graphic Designing</strong>
-          </h4>
-          <p class="text-faded mb-0">Top Rated Graphic-Designer for your work.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-          <h4>
-            <strong>Favorited</strong>
-          </h4>
-          <p class="text-faded mb-0">Millions of users
-            <i class="fas fa-heart"></i>
-            Start Work with Us!</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>Mustache</strong>
-          </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Callout -->
-  <section class="callout">
-    <div class="container text-center">
-      <h2 class="mx-auto mb-5">Welcome to
-        <em>Retrofinity</em>
-        </h2>
-      <a class="btn btn-primary btn-xl" href="#">Download Now!</a>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Portfolio</h3>
-        <h2 class="mb-5">Recent Projects</h2>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Infinity Creatives</h2>
-                <p class="mb-0">A previous project of Retrofinity!</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Graphic Designing</h2>
-                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Strawberries</h2>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Workspace</h2>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call to Action -->
-  <section class="content-section bg-primary text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-    </div>
-  </section>
-
-  <!-- Map -->
-  <section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-    <br />
-    <small>
-      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <ul class="list-inline mb-5">
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-facebook"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-twitter"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
-            <i class="icon-social-github"></i>
-          </a>
-        </li>
-      </ul>
-      <p class="text-muted small mb-0">Copyright &copy; Retrofinity 2019</p>
-    </div>
-  </footer>
-
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
-
-</body>
-
+			 <div class="section-content">
+				<h2 class="typography-hero-headline tile-headline">Which iPhone is right for&nbsp;you?</h2>
+				<div class="compare-table row">
+					<div class="compare-column column-1 column large-3 medium-4 medium-offset-1 small-6 small-offset-0">
+						<div class="column-content flex-wrapper">
+							<div class="content-wrapper">
+								<figure class="column-image image-iphone-11-pro"></figure>
+								<h3 class="compare-headline typography-compare-headline">iPhone 11 Pro</h3>
+								<p class="typography-body-reduced copy-pricing">Starting at $999</p>
+								<ul class="feature-list list list-nobullet typography-body-reduced">
+									<li class="list-item">All-new triple-camera system (Ultra Wide, Wide, Telephoto)</li>
+									<li class="list-item">Up to 20 hours of video&nbsp;playback<sup><a href="#footnote-2" class="footnote">1</a></sup></li>
+									<li class="list-item">Water resistant to a depth of 4&nbsp;meters for up to 30&nbsp;minutes<sup><a href="#footnote-3" class="footnote">2</a></sup></li>
+									<li class="list-item">5.8” or 6.5” Super Retina&nbsp;XDR display<sup><a href="#footnote-4" class="footnote">3</a></sup></li>
+								</ul>
+							</div>
+							<div class="cta-wrapper">
+								<div class="button-wrapper">
+									<a href="/us/shop/goto/buy_iphone/iphone_11_pro" role="button" data-analytics-region="buy" data-analytics-title="buy iphone 11 pro" aria-label="Buy iPhone 11 Pro" class="button button-reduced compare-button">Buy</a>
+								</div>
+								<div class="compare-link typography-body-reduced">
+									<a href="/iphone-11-pro/" data-analytics-title="learn more about iphone 11 pro" data-analytics-region="learn more" aria-label="Learn more about iPhone 11 Pro" class="icon-wrapper"><span class="icon-copy">Learn more</span><span class="icon icon-after more"></span></a> </div>
+							</div>
+						</div>
+					</div>
+					<div class="compare-column column-2 column large-3 medium-4 medium-offset-1 small-6 small-offset-0">
+						<div class="column-content flex-wrapper">
+							<div class="content-wrapper">
+								<figure class="column-image image-iphone-11"></figure>
+								<h3 class="compare-headline typography-compare-headline">iPhone 11</h3>
+								<p class="typography-body-reduced copy-pricing">Starting at $699</p>
+								<ul class="feature-list list list-nobullet typography-body-reduced">
+									<li class="list-item">All-new dual-camera system (Ultra Wide, Wide)</li>
+									<li class="list-item">Up to 17 hours of video&nbsp;playback<sup><a href="#footnote-2" class="footnote">1</a></sup></li>
+									<li class="list-item">Water resistant to a depth of 2&nbsp;meters for up to 30&nbsp;minutes<sup><a href="#footnote-3" class="footnote">2</a></sup></li>
+									<li class="list-item">6.1” Liquid Retina HD display<sup><a href="#footnote-4" class="footnote">3</a></sup></li>
+								</ul>
+							</div>
+							<div class="cta-wrapper">
+								<div class="button-wrapper">
+									<a href="/us/shop/goto/buy_iphone/iphone_11" role="button" data-analytics-region="buy" data-analytics-title="buy iphone 11" aria-label="Buy iPhone 11" class="button button-reduced compare-button">Buy</a>
+								</div>
+								<div class="compare-link typography-body-reduced">
+									<a href="/iphone-11/" data-analytics-title="learn more about iphone 11" data-analytics-region="learn more" aria-label="Learn more about iPhone 11" class="icon-wrapper"><span class="icon-copy">Learn more</span><span class="icon icon-after more"></span></a> </div>
+							</div>
+						</div>
+					</div>
+					<div class="compare-column column-3 column large-3 medium-4 medium-offset-1 small-6 small-offset-0">
+						<div class="column-content flex-wrapper">
+							<div class="content-wrapper">
+								<figure class="column-image image-iphone-xr"></figure>
+								<h3 class="compare-headline typography-compare-headline">
+									<div class="logo-wrapper">
+										<figure class="logo-iphone-xr"></figure>
+										<div class="visuallyhidden">iPhone X R</div>
+									</div>
+								</h3>
+								<p class="typography-body-reduced copy-pricing">Starting at $599</p>
+								<ul class="feature-list list list-nobullet typography-body-reduced">
+									<li class="list-item">Single-camera system <br>(Wide)</li>
+									<li class="list-item">Up to 16 hours of video&nbsp;playback<sup><a href="#footnote-2" class="footnote">1</a></sup></li>
+									<li class="list-item">Water resistant to a depth of 1&nbsp;meter for up to 30&nbsp;minutes<sup><a href="#footnote-3" class="footnote">2</a></sup></li>
+									<li class="list-item">6.1” Liquid Retina HD display<sup><a href="#footnote-4" class="footnote">3</a></sup></li>
+								</ul>
+							</div>
+							<div class="cta-wrapper">
+								<div class="button-wrapper">
+									<a href="/us/shop/goto/buy_iphone/iphone_xr" role="button" data-analytics-region="buy" data-analytics-title="buy iphone xr" aria-label="Buy iPhone X R" class="button button-reduced compare-button">Buy</a>
+								</div>
+								<div class="compare-link typography-body-reduced">
+									<a href="/iphone-xr/specs/" data-analytics-title="learn more about iphone xr" data-analytics-region="learn more" aria-label="Learn more about iPhone X R" class="icon-wrapper"><span class="icon-copy">Learn more</span><span class="icon icon-after more"></span></a> </div>
+							</div>
+						</div>
+					</div>
+					<div class="compare-column column-4 column large-3 medium-4 medium-offset-1 small-6 small-offset-0">
+						<div class="column-content flex-wrapper">
+							<div class="content-wrapper">
+								<figure class="column-image image-iphone-8"></figure>
+								<h3 class="compare-headline typography-compare-headline">iPhone 8</h3>
+								<p class="typography-body-reduced copy-pricing">Starting at $449</p>
+								<ul class="feature-list list list-nobullet typography-body-reduced">
+									<li class="list-item">Single (Wide) or dual-camera system (Wide, Telephoto)</li>
+									<li class="list-item">Up to 14 hours of video&nbsp;playback<sup><a href="#footnote-2" class="footnote">1</a></sup></li>
+									<li class="list-item">Water resistant to a depth of 1&nbsp;meter for up to 30&nbsp;minutes<sup><a href="#footnote-3" class="footnote">2</a></sup></li>
+									<li class="list-item">4.7” or 5.5” Retina HD display</li>
+								</ul>
+							</div>
+							<div class="cta-wrapper">
+								<div class="button-wrapper">
+									<a href="/us/shop/goto/buy_iphone/iphone_8" role="button" data-analytics-region="buy" data-analytics-title="buy iphone 8" aria-label="Buy iPhone 8" class="button button-reduced compare-button">Buy</a>
+								</div>
+								<div class="compare-link typography-body-reduced">
+									<a href="/iphone-8/specs/" data-analytics-title="learn more about iphone 8" data-analytics-region="learn more" aria-label="Learn more about iPhone 8" class="icon-wrapper"><span class="icon-copy">Learn more</span><span class="icon icon-after more"></span></a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="link-wrapper typography-intro-elevated">
+					<a href="/iphone/compare/" data-analytics-title="compare all iphone models" data-analytics-region="learn more" class="icon-wrapper"><span class="icon-copy">Compare all iPhone models</span><span class="icon icon-after more"></span></a> </div>
+			</div>
+*/
+			<section class="our-process" id="about">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6" data-aos="fade-up">
+							<h5 class="text-dark">iPhone 11 Pro</h5>
+							<h3 class="font-weight-medium text-dark">Apple Card Monthly Installments</h3>
+							<h5 class="text-dark mb-3">Pay for your next iPhone over time,
+								interest-free with Apple Card.</h5>
+							<p class="font-weight-medium mb-4">Get up to $600 <br> 
+								toward a new iPhone.
+							</p>
+							<div class="d-flex justify-content-start mb-3">
+								<img src="images/tick.png" alt="tick" class="mr-3 tick-icon"  >
+								<p class="mb-0">The easiest way to upgrade to the latest iPhone.</p>
+							</div>
+							<div class="d-flex justify-content-start mb-3">
+								<img src="images/tick.png" alt="tick" class="mr-3 tick-icon"  >
+								<p class="mb-0">Why Apple is the best place to buy.</p>
+							</div>
+							<div class="d-flex justify-content-start">
+								<img src="images/tick.png" alt="tick" class="mr-3 tick-icon"  >
+								<p class="mb-0">You’ve never seen a Phone like this.</p>
+							</div>
+						</div>
+						<div class="col-sm-6 text-right" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+							<img src="images/idea.png" alt="idea" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="our-projects" id="projects">
+				<div class="container">
+					<div class="row mb-5">
+						<div class="col-sm-12">
+							<div class="d-sm-flex justify-content-between align-items-center mb-2">
+								<h3 class="font-weight-medium text-dark ">Let's See Our Latest Phones</h3>
+								<div><a href="#" class="btn btn-outline-primary">View more</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mb-5" data-aos="fade-up">
+					<div class="owl-carousel-projects owl-carousel owl-theme">
+						<div class="item">
+							<img src="images/carousel/slider1.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider2.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider3.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider4.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider5.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider1.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider2.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider3.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider4.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider5.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider1.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider2.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider3.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider4.jpg" alt="slider">
+						</div>
+						<div class="item">
+							<img src="images/carousel/slider5.jpg" alt="slider">
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row pt-5 mt-5 pb-5 mb-5">
+						<div class="col-sm-3">
+							<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-down">
+								<img src="images/satisfied-client.svg" alt="satisfied-client" class="mr-3">
+								<div>
+									<h4 class="font-weight-bold text-dark mb-0"><span class="scVal">0</span>%</h4>
+									<h5 class="text-dark mb-0">Satisfied clients</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-up">
+								<img src="images/finished-project.svg" alt="satisfied-client" class="mr-3">
+								<div>
+									<h4 class="font-weight-bold text-dark mb-0"><span class="fpVal">0</span></h4>
+									<h5 class="text-dark mb-0">Finished Project</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-down">
+								<img src="images/team-members.svg" alt="Team Members" class="mr-3">
+								<div>
+									<h4 class="font-weight-bold text-dark mb-0"><span class="tMVal">0</span></h4>
+									<h5 class="text-dark mb-0">Team Members</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-up">
+								<img src="images/our-blog-posts.svg" alt="Our Blog Posts" class="mr-3">
+								<div>
+									<h4 class="font-weight-bold text-dark mb-0"><span class="bPVal">0</span></h4>
+									<h5 class="text-dark mb-0">Our Blog Posts</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="testimonial" id="testimonial">
+				<div class="container">
+					<div class="row  mt-md-0 mt-lg-4">
+						<div class="col-sm-6 text-white" data-aos="fade-up">
+							<p class="font-weight-bold mb-3">Apple iPhone</p>
+							<h3 class="font-weight-medium">Our customers are our <br>biggest fans</h3>
+							<ul class="flipster-custom-nav">
+								<li class="flipster-custom-nav-item">
+									<a href="javascript:;" class="flipster-custom-nav-link" title="0"></a>
+								</li>
+								<li class="flipster-custom-nav-item">
+									<a href="javascript:;" class="flipster-custom-nav-link"  title="1"></a>
+								</li>
+								<li class="flipster-custom-nav-item">
+									<a href="javascript:;" class="flipster-custom-nav-link active" title="2"></a>
+								</li>
+								<li class="flipster-custom-nav-item">
+									<a href="javascript:;" class="flipster-custom-nav-link"  title="3"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-6" data-aos="fade-up">
+							<div id="testimonial-flipster">
+								<ul>
+									<li>
+										<div class="testimonial-item">
+											<img src="images/testimonial/testimonial1.jpg" alt="icon" class="testimonial-icons">
+											<p>One of the best assets to Apple iPhone X is the Apple CarPlay. Being an insider of UPS safety, excellence, pride and integrity are at the forefront. With Apple products that is just what you get. 
+											</p>
+											<h6 class="testimonial-author">Tua Manuera</h6>
+											<p class="testimonial-destination">Accounts</p>
+										</div>
+									</li>
+									<li>
+										<div class="testimonial-item">
+											<img src="images/testimonial/testimonial2.jpg" alt="icon" class="testimonial-icons">
+											<p>One of the best assets to Apple iPhone X is the Apple CarPlay. Being an insider of UPS safety, excellence, pride and integrity are at the forefront. With Apple products that is just what you get. 
+											</p>
+											<h6 class="testimonial-author">ALi Haider</h6>
+											<p class="testimonial-destination">Director,Dj market</p>
+										</div>
+									</li>
+									<li>
+										<div class="testimonial-item">
+											<img src="images/testimonial/testimonial3.jpg" alt="icon" class="testimonial-icons">
+											<p>One of the best assets to Apple iPhone X is the Apple CarPlay. Being an insider of UPS safety, excellence, pride and integrity are at the forefront. With Apple products that is just what you get. 
+											</p>
+											<h6 class="testimonial-author">Sarah Philip</h6>
+											<p class="testimonial-destination">Chief Accountant</p>
+										</div>
+									</li>
+									<li>
+										<div class="testimonial-item">
+											<img src="images/testimonial/testimonial4.jpg" alt="icon" class="testimonial-icons">
+											<p>One of the best assets to Apple iPhone X is the Apple CarPlay. Being an insider of UPS safety, excellence, pride and integrity are at the forefront. With Apple products that is just what you get. 
+											</p>
+											<h6 class="testimonial-author">Mark Spenser</h6>
+											<p class="testimonial-destination">Director,Dj market</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="clients pt-5 mt-5"  data-aos="fade-up" data-aos-offset="-400">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="d-sm-flex justify-content-between align-items-center">
+								<img src="images/deloit.svg" alt="deloit" class="p-2 p-lg-0" data-aos="fade-down"  data-aos-offset="-400">
+								<img src="images/erricson.svg" alt="erricson" class="p-2 p-lg-0" data-aos="fade-up"  data-aos-offset="-400">
+								<img src="images/netflix.svg" alt="netflix" class="p-2 p-lg-0" data-aos="fade-down"  data-aos-offset="-400">
+								<img src="images/instagram.svg" alt="instagram" class="p-2 p-lg-0" data-aos="fade-up"  data-aos-offset="-400">
+								<img src="images/coinbase.svg" alt="coinbase" class="p-2 p-lg-0" data-aos="fade-down"  data-aos-offset="-400">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="pricing-list" id="plans">
+				<div class="container">
+					<div class="row" data-aos="fade-up" data-aos-offset="-500">
+						<div class="col-sm-12">
+							<div class="d-sm-flex justify-content-between align-items-center mb-2">
+								<div>
+									<h3 class="font-weight-medium text-dark ">Checkout Pricing Plan</h3>
+									<h5 class="text-dark ">Lorem ipsum dolor sit amet, consectetur pretium pretium tempor. Lorem ipsum dolor </h5>
+								</div>
+								<div class="mb-5 mb-lg-0 mt-3 mt-lg-0">
+									<div class="d-flex align-items-center">
+										<p class="mr-2 font-weight-medium monthly text-active check-box-label">Monthly</p>
+										<label class="toggle-switch toggle-switch">
+										<input type="checkbox" checked  id="toggle-switch">
+										<span class="toggle-slider round"></span>
+										</label>
+										<p class="ml-2 font-weight-medium yearly check-box-label">Yearly</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row"  data-aos="fade-up" data-aos-offset="-300">
+						<div class="col-sm-4">
+							<div class="pricing-box">
+								<img src="images/starter.svg" alt="starter">
+								<h6 class="font-weight-medium title-text">Starter Business</h6>
+								<h1 class="text-amount mb-4 mt-2">$23</h1>
+								<ul class="pricing-list">
+									<li>Create a free website</li>
+									<li>Connect Domain</li>
+									<li>Business and ecommerce</li>
+									<li>Idea for smaller professional websites</li>
+									<li>Web space</li>
+								</ul>
+								<a href="#" class="btn btn-outline-primary">Puchase Now</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="pricing-box selected">
+								<img src="images/proffessional.svg" alt="starter">
+								<h6 class="font-weight-medium title-text">Professional</h6>
+								<h1 class="text-amount mb-4 mt-2">$45</h1>
+								<ul class="pricing-list">
+									<li>Create a free website</li>
+									<li>Connect Domain</li>
+									<li>Business and ecommerce</li>
+									<li>Idea for smaller professional websites</li>
+									<li>Web space</li>
+								</ul>
+								<a href="#" class="btn btn-primary">Puchase Now</a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="pricing-box">
+								<img src="images/premium.svg" alt="starter">
+								<h6 class="font-weight-medium title-text">Premium</h6>
+								<h1 class="text-amount mb-4 mt-2">$87</h1>
+								<ul class="pricing-list">
+									<li>Create a free website</li>
+									<li>Connect Domain</li>
+									<li>Business and ecommerce</li>
+									<li>Idea for smaller professional websites</li>
+									<li>Web space</li>
+								</ul>
+								<a href="#" class="btn btn-outline-primary">Puchase Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contactus" id="contact">
+				<div class="container">
+					<div class="row mb-5 pb-5">
+						<div class="col-sm-5" data-aos="fade-up" data-aos-offset="-500">
+							<img src="images/contact.jpg" alt="contact" class="img-fluid">
+						</div>
+						<div class="col-sm-7" data-aos="fade-up" data-aos-offset="-500">
+							<h3 class="font-weight-medium text-dark mt-5 mt-lg-0">if any problem happen then</h3>
+							<h5 class="text-dark mb-5">Just Send Us a Message</h5>
+							<form>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="text" class="form-control" id="name" placeholder="Name*">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input type="email" class="form-control" id="mail" placeholder="Email*">
+										</div>
+									</div>
+									<div class="col-sm-12">
+										<div class="form-group">
+											<textarea name="message" id="message" class="form-control" placeholder="Message*" rows="5"></textarea>
+										</div>
+									</div>
+									<div class="col-sm-12">
+										<a href="#" class="btn btn-secondary">SEND</a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<address>
+								<p>143 castle road 517</p>
+								<p class="mb-4">district, kiyev port south Canada</p>
+								<div class="d-flex align-items-center">
+									<p class="mr-4 mb-0">+3 123 456 789</p>
+									<a href="mailto:info@yourmail.com" class="footer-link">info@yourmail.com</a>
+								</div>
+								<div class="d-flex align-items-center">
+									<p class="mr-4 mb-0">+1 222 345 342</p>
+									<a href="mailto:Marshmallow@yourmail.com" class="footer-link">Marshmallow@yourmail.com</a>
+								</div>
+							</address>
+							<div class="social-icons">
+								<h6 class="footer-title font-weight-bold">
+									Social Share
+								</h6>
+								<div class="d-flex">
+									<a href="#"><i class="mdi mdi-github-circle"></i></a>
+									<a href="#"><i class="mdi mdi-facebook-box"></i></a>
+									<a href="#"><i class="mdi mdi-twitter"></i></a>
+									<a href="#"><i class="mdi mdi-dribbble"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="row">
+								<div class="col-sm-4">
+									<h6 class="footer-title">Social Share</h6>
+									<ul class="list-footer">
+										<li><a href="#" class="footer-link">Home</a></li>
+										<li><a href="#" class="footer-link">About</a></li>
+										<li><a href="#" class="footer-link">Services</a></li>
+										<li><a href="#" class="footer-link">Portfolio</a></li>
+										<li><a href="#" class="footer-link">Contact</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-4">
+									<h6 class="footer-title">Product</h6>
+									<ul class="list-footer">
+										<li><a href="#" class="footer-link">Digital Marketing</a></li>
+										<li><a href="#" class="footer-link">Web Development</a></li>
+										<li><a href="#" class="footer-link">App Development</a></li>
+										<li><a href="#" class="footer-link">Design</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-4">
+									<h6 class="footer-title">Company</h6>
+									<ul class="list-footer">
+										<li><a href="#" class="footer-link">Partners</a></li>
+										<li><a href="#" class="footer-link">Investors</a></li>
+										<li><a href="#" class="footer-link">Partners</a></li>
+										<li><a href="#" class="footer-link">FAQ</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center">
+							<img src="images/logo.svg" alt="logo" class="mr-3">
+							<p class="mb-0 text-small pt-1">© 2019-2020 <a href="https://www.bootstrapdash.com" class="text-white" target="_blank">BootstrapDash</a>. All rights reserved.</p>
+						</div>
+						<div>
+							<div class="d-flex">
+								<a href="#" class="text-small text-white mx-2 footer-link">Privacy Policy </a>          
+								<a href="#" class="text-small text-white mx-2 footer-link">Customer Support </a>
+								<a href="#" class="text-small text-white mx-2 footer-link">Careers </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="vendors/base/vendor.bundle.base.js"></script>
+		<script src="vendors/owl.carousel/js/owl.carousel.js"></script>
+		<script src="vendors/aos/js/aos.js"></script>
+		<script src="vendors/jquery-flipster/js/jquery.flipster.min.js"></script>
+		<script src="js/template.js"></script>
+	</body>
 </html>
